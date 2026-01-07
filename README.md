@@ -8,7 +8,7 @@
 
 Alat otomatisasi berbasis **Google Apps Script** untuk mengekstraksi data bisnis dari Google Maps secara massal langsung ke Google Sheets. Solusi ideal untuk *lead generation*, riset pasar, dan pengumpulan data tanpa perlu coding.
 
-<img width="1914" height="866" alt="image" src="https://github.com/user-attachments/assets/e5744287-4303-4612-abdc-9dd3cd938870" />
+<img width="1914" alt="Dashboard Scraper" src="https://github.com/user-attachments/assets/e5744287-4303-4612-abdc-9dd3cd938870" />
 
 ### ✨ Fitur Utama
 * **No-Code:** Berjalan sepenuhnya di Google Sheets tanpa instalasi software tambahan.
@@ -22,13 +22,39 @@ Alat otomatisasi berbasis **Google Apps Script** untuk mengekstraksi data bisnis
 3. **Konfigurasi:** Pilih Negara, Bahasa, dan masukkan kata kunci pencarian (contoh: "Coffee Shop Jakarta").
 4. **Jalankan:** Klik tombol **"Jalankan Scraper"** dan data akan muncul otomatis.
 
+
+---
+
+## 🛠️ Technical Implementation (Code.gs)
+
+Project ini menggunakan arsitektur **Library** untuk memastikan skrip tetap ringan dan mudah diperbarui. Berikut adalah potongan kode utama yang digunakan:
+
+```javascript
+("use strict");
+
+const Client = {
+  prop: PropertiesService.getScriptProperties(),
+  cache: CacheService.getScriptCache(),
+  globalThis: globalThis,
+};
+
+// Initialize GOOGLEMAPS Library
+GOOGLEMAPS.init({ client: Client });
+
+const onInstall = (e) => onOpen(e);
+const onOpen = (e) => GOOGLEMAPS.onOpen(e);
+function callGsServer() { }
+```
+
+[⬆ Kembali ke Atas](#🛰️-google-maps-scraper-google-sheets-edition)
+
 ---
 
 ## English
 
 An automation tool powered by **Google Apps Script** to extract business data from Google Maps directly into Google Sheets. Perfect for lead generation, market research, and data collection with zero coding required.
 
-<img width="1914" height="866" alt="image" src="https://github.com/user-attachments/assets/4721ce3f-e8a7-462a-b08d-57e53b5f8c6c" />
+<img width="1914" alt="Scraper Preview" src="https://github.com/user-attachments/assets/4721ce3f-e8a7-462a-b08d-57e53b5f8c6c" />
 
 ### ✨ Key Features
 * **No-Code:** Runs entirely on Google Sheets without any software installation.
@@ -41,6 +67,30 @@ An automation tool powered by **Google Apps Script** to extract business data fr
 2. **Open Scraper Menu:** Click the **"Scraper"** menu in the top toolbar, then select **"Open Sidebar"**.
 3. **Configure:** Select Country, Language, and enter your search keyword (e.g., "Gym in Singapore").
 4. **Run:** Click the **"Run Scraper"** button and watch the data populate automatically.
+
+---
+
+## 🛠️ Technical Implementation (Code.gs)
+
+This project utilizes a **Library** architecture to ensure the script remains lightweight, organized, and easy to update centrally.
+
+```javascript
+("use strict");
+
+const Client = {
+  prop: PropertiesService.getScriptProperties(),
+  cache: CacheService.getScriptCache(),
+  globalThis: globalThis,
+};
+
+// Initialize GOOGLEMAPS Library
+GOOGLEMAPS.init({ client: Client });
+
+const onInstall = (e) => onOpen(e);
+const onOpen = (e) => GOOGLEMAPS.onOpen(e);
+function callGsServer() { }
+```
+[⬆ Back to Top](#🛰️-google-maps-scraper-google-sheets-edition)
 
 ---
 
