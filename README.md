@@ -13,7 +13,7 @@ Alat otomatisasi berbasis **Google Apps Script** untuk mengekstraksi data bisnis
 | Fitur | Versi FREE | Versi PRO 🚀 |
 | :--- | :--- | :--- |
 | **Batas Data** | Maks 50 Baris / Scrape | **Tanpa Batas (Unlimited)** |
-| **Data Kontak** | 🔒 Terkunci (PRO Only) | ✅ Terbuka (Telepon & Web) |
+| **Data Kontak** | 🔒 Terkunci (Setelah 50 Data) (PRO Only) | ✅ Terbuka (Telepon & Web) |
 | **Detail Lokasi** | ✅ Provinsi - Kelurahan | ✅ Provinsi - Kelurahan |
 | **Link Maps & Status** | 🔒 Terkunci (PRO Only) | ✅ Terbuka Langsung |
 | **Jeda Waktu** | **Tanpa Jeda (Instan)** | **Tanpa Jeda (Instan)** |
@@ -72,7 +72,7 @@ An automation tool powered by **Google Apps Script** to extract business data fr
 | Feature | FREE Edition | PRO Edition 🚀 |
 | :--- | :--- | :--- |
 | **Data Limit** | Max 50 Rows / Scrape | **Unlimited** |
-| **Contact Data** | 🔒 Locked (PRO Only) | ✅ Unlocked (Phone & Web) |
+| **Contact Data** | 🔒 Locked After 50 (PRO Only) | ✅ Unlocked (Phone & Web) |
 | **Location Details** | ✅ State to Village level | ✅ State to Village level |
 | **Maps Link & Status** | 🔒 Locked (PRO Only) | ✅ Instant Access |
 | **Cooldown** | **No Delay (Instant)** | **No Delay (Instant)** |
