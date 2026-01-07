@@ -10,12 +10,13 @@ Alat otomatisasi berbasis **Google Apps Script** untuk mengekstraksi data bisnis
 
 <img width="1914" alt="Dashboard Scraper" src="https://github.com/user-attachments/assets/e5744287-4303-4612-abdc-9dd3cd938870" />
 
-### 💎 Pilih Versi Anda
 | Fitur | Versi FREE | Versi PRO 🚀 |
 | :--- | :--- | :--- |
-| **Batas Data** | Terbatas per sesi | **Tanpa Batas (Unlimited)** |
-| **Jeda Waktu** | **30 Menit Cooldown** | **Tanpa Jeda (Instan)** |
-| **Detail Data** | Nama, Telepon, Alamat | + Website, Jam Buka, Social Media |
+| **Batas Data** | Maks 50 Baris / Scrape | **Tanpa Batas (Unlimited)** |
+| **Data Kontak** | 🔒 Terkunci (PRO Only) | ✅ Terbuka (Telepon & Web) |
+| **Detail Lokasi** | ✅ Provinsi - Kelurahan | ✅ Provinsi - Kelurahan |
+| **Link Maps & Status** | 🔒 Terkunci (PRO Only) | ✅ Terbuka Langsung |
+| **Jeda Waktu** | **Tanpa Jeda (Instan)** | **Tanpa Jeda (Instan)** |
 | **Dukungan** | Komunitas | **Prioritas 1-on-1** |
 
 > **Tertarik dengan Versi PRO?** [Hubungi Saya di WhatsApp](https://wa.me/6282111200672) untuk akses penuh tanpa jeda!
@@ -70,11 +71,12 @@ An automation tool powered by **Google Apps Script** to extract business data fr
 
 | Feature | FREE Edition | PRO Edition 🚀 |
 | :--- | :--- | :--- |
-| **Data Limit** | Limited per session | **Unlimited** |
-| **Cooldown** | 30 Minutes Delay | **No Delay (Instant)** |
-| **Data Fields** | Name, Phone, Address | **+ Website, Opening Hours, Social Media** |
-| **Support** | Community | **Priority 1-on-1 Support** |
-| **Customization** | No | **Custom Data Headers** |
+| **Data Limit** | Max 50 Rows / Scrape | **Unlimited** |
+| **Contact Data** | 🔒 Locked (PRO Only) | ✅ Unlocked (Phone & Web) |
+| **Location Details** | ✅ State to Village level | ✅ State to Village level |
+| **Maps Link & Status** | 🔒 Locked (PRO Only) | ✅ Instant Access |
+| **Cooldown** | **No Delay (Instant)** | **No Delay (Instant)** |
+| **Support** | Community-based | **Priority 1-on-1** |
 
 > **Interested in the PRO Version?** > [Contact me on WhatsApp](https://wa.me/6282111200672) or [Buy me a coffee](https://www.paypal.com/paypalme/aguskusmara) to get full access!
 
@@ -117,13 +119,16 @@ function callGsServer() { }
 ---
 
 ### 📊 Data Output Details
-| Column | Description |
-| :--- | :--- |
-| **Business Name** | Official name of the place |
-| **Phone** | Registered contact number |
-| **Address** | Full address details including district/city |
-| **Website** | Official website URL |
-| **Status** | Real-time operational status (Open/Closed) |
+
+| No | Column Name | FREE Edition | PRO Edition |
+| :--- | :--- | :---: | :---: |
+| 1-3 | ID, Business Name, Category | ✅ | ✅ |
+| 4-5 | **Phone, Website** | 🔒 Locked | ✅ Unlocked |
+| 6-9 | State, City, District, Village | ✅ | ✅ |
+| 10 | Full Address | ✅ | ✅ |
+| 11 | Opening Status | 🔒 Locked | ✅ Unlocked |
+| 12-13| Type, Facilities | 🔒 Locked | ✅ Unlocked |
+| 14 | **Google Maps Link** | 🔒 Locked | ✅ Unlocked |
 
 ---
 
