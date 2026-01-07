@@ -10,6 +10,16 @@ Alat otomatisasi berbasis **Google Apps Script** untuk mengekstraksi data bisnis
 
 <img width="1914" alt="Dashboard Scraper" src="https://github.com/user-attachments/assets/e5744287-4303-4612-abdc-9dd3cd938870" />
 
+### 💎 Pilih Versi Anda
+| Fitur | Versi FREE | Versi PRO 🚀 |
+| :--- | :--- | :--- |
+| **Batas Data** | Terbatas per sesi | **Tanpa Batas (Unlimited)** |
+| **Jeda Waktu** | **30 Menit Cooldown** | **Tanpa Jeda (Instan)** |
+| **Detail Data** | Nama, Telepon, Alamat | + Website, Jam Buka, Social Media |
+| **Dukungan** | Komunitas | **Prioritas 1-on-1** |
+
+> **Tertarik dengan Versi PRO?** [Hubungi Saya di WhatsApp](https://wa.me/6282111200672) untuk akses penuh tanpa jeda!
+
 ### ✨ Fitur Utama
 * **No-Code:** Berjalan sepenuhnya di Google Sheets tanpa instalasi software tambahan.
 * **Antarmuka Sidebar:** Menu pencarian yang intuitif langsung di dalam spreadsheet.
@@ -55,6 +65,18 @@ function callGsServer() { }
 An automation tool powered by **Google Apps Script** to extract business data from Google Maps directly into Google Sheets. Perfect for lead generation, market research, and data collection with zero coding required.
 
 <img width="1914" alt="Scraper Preview" src="https://github.com/user-attachments/assets/4721ce3f-e8a7-462a-b08d-57e53b5f8c6c" />
+
+## 💎 Choose Your Version
+
+| Feature | FREE Edition | PRO Edition 🚀 |
+| :--- | :--- | :--- |
+| **Data Limit** | Limited per session | **Unlimited** |
+| **Cooldown** | 30 Minutes Delay | **No Delay (Instant)** |
+| **Data Fields** | Name, Phone, Address | **+ Website, Opening Hours, Social Media** |
+| **Support** | Community | **Priority 1-on-1 Support** |
+| **Customization** | No | **Custom Data Headers** |
+
+> **Interested in the PRO Version?** > [Contact me on WhatsApp](https://wa.me/6282111200672) or [Buy me a coffee](https://www.paypal.com/paypalme/aguskusmara) to get full access!
 
 ### ✨ Key Features
 * **No-Code:** Runs entirely on Google Sheets without any software installation.
